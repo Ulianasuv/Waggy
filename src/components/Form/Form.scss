@@ -1,0 +1,48 @@
+@use "./../../scss/mixin.scss" as *;
+@use "./../../scss/vars.scss" as *;
+
+
+.form{
+    background: $bg;
+    margin-top: 5rem;
+    padding: 5rem 0;
+    width: 100%;
+
+    form{
+        width: 50%;
+        text-align: center;
+        font-size: 50px;
+        height: 505px;
+
+         @include flex;
+        flex-direction: column;
+        
+        input{
+            border: 1px solid $text-light;
+            outline: none;
+            border-radius: 10px;
+            display: block;
+            padding-left: 10px;
+            width: 100%;
+            height: 50px;
+            margin: 4px 0;
+        }
+
+        button{
+            width: 100%;
+            display: block;
+            height: 40px;
+            color: white;
+            background: $text-color;
+            padding: 5px 20px;
+            outline: none;
+            border: none;
+            height: 60px;
+        }
+
+        span{
+            color: $text-accent;
+        }
+    }
+}
+

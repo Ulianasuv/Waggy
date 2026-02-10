@@ -1,0 +1,39 @@
+.products__catalog{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: 0 auto;
+    width: 80%;
+}
+label{
+    list-style: none;
+}
+
+.products__top{
+
+    form{
+        display: flex;
+        justify-content: center;
+        gap: 2rem;
+    }
+
+    display: flex;
+    align-items: center;
+    margin: 2rem 0;
+
+    button{
+        background: transparent;
+        padding: 1rem 2rem;
+        border: 1px solid #EEEBE5;
+    }
+
+    button:hover{
+        background: transparent;
+        padding: 1rem 2rem;
+        border: 1px solid #EEEBE5;
+        background-color: #DEAD6F;
+    }
+}
+h3{
+    font-size: 26;
+    color: #41403E;
+}

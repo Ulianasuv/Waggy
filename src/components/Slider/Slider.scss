@@ -1,0 +1,52 @@
+.swiper{
+    background-color: #F9F3EC;
+    height: 500px;
+    padding: 4rem 0;
+}
+
+
+.swiper-slide{
+    width: 100% !important;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    align-items: center;
+    text-align: left;
+
+    .hero__image{
+        height: 100%;
+    }
+
+    h1{
+        font-size: 74px;
+        color: #41403E;
+    }
+
+    img{
+        height: 100%;
+    }
+
+
+    button{
+        background: transparent;
+        padding: 1rem;
+        border: 1px solid #41403E;
+        color: #41403E;
+    }
+
+    button:hover{
+        background: transparent;
+        background-color: #DEAD6F;
+        padding: 1rem;
+        border: 1px solid #41403E;
+        color: #41403E;
+    }
+
+    .hero__content{
+        span{
+            color: #DEAD6F;
+        }
+    }
+}
+
